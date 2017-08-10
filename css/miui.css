@@ -1,0 +1,155 @@
+/* CSS Document */
+
+/*全局reset(默认样式重置)*/
+body, div, dl, dt, dd, ul, ol, li,h1, h2, h3, h4, h5, h6, pre, code,form, fieldset, legend, input, button,textarea, p, blockquote, th, td { 
+	margin: 0;
+	padding: 0;
+	color:#000000;
+	list-style:none;
+	font-family: "FZLTXHJW","microsoft yahei";
+}
+fieldset, img {
+	border: 0;
+}
+a{
+	text-decoration:none;
+}
+
+/*top*/
+.top_on{
+	width:100%;
+	height:49px;
+	background:#000;
+}
+
+.top_on .top{
+	width:1240px;
+	height:49px;
+	margin:0 auto;
+	position:relative;
+}
+.top_on .top .miui_logo{
+	width:46px;
+	height:17px;
+	background:url(../images/logo.png);
+	position:absolute;
+	top:16px;
+	left:0;
+}
+.top_on .top .miui_nav{
+	width:400px;
+	height:49px;
+	line-height:49px;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.top_on .top .miui_nav a{
+	margin-left:35px;
+	color:#dddddd;
+}
+.top_on .top .miui_nav a.current{
+	color:#868686;
+}
+.top_on .top .miui_nav a:hover{
+	color:#868686;
+}
+
+/*banner*/
+.banner{
+	width:1903px;
+	height:657px;
+	background:url(../images/banner01.png) no-repeat center top;
+}
+
+/*main*/
+.main_on{
+	width:100%;
+	height:57px;
+	margin:0 auto;
+	padding:130px 0;
+	background-color:#fafafa;
+}
+.main{
+	width:1240px;
+	margin:0 auto;
+}
+.main ul{
+	width:1240px;
+	height:57px;
+}
+.main ul li{
+	float:left;
+	width:412px;
+	border-right:1px solid #e1e1e1;
+	text-align:center;
+}
+.main ul li.li_last{
+	border-right:none;
+}
+.main ul li a{
+	display:block;
+	height:57px;
+}
+.main ul li img{
+	width:48px;
+	height:48px;
+	margin-right:24px;
+}
+.main ul li div{
+	text-align:left;
+	display:inline-block;
+}
+.main ul li div h3{
+	color:#333;
+	font-size:20px;
+	font-weight:normal;
+	line-height:28px;
+}
+.main ul li div p{
+	color:#939393;
+	font-size:14px;
+	line-height:28px;
+}
+.main ul li a:hover h3{
+	color:#f78200;
+}
+.main ul li a:hover p{
+	color:#f78200;
+}
+
+/*footer*/
+.footer_on{
+	width:100%;
+	height:159px;
+	background:#fafafa;
+}
+.footer_on .footer{
+	width:1240px;
+	height:50px;
+	margin:0 auto;
+	text-align:center;
+	padding:64px 0 45px;
+	border-top:1px solid #e1e1e1;
+}
+.footer .footer_links li{
+	display:inline-block;
+	width:110px;
+	border-right:1px solid #d9d9d9;
+}
+.footer .footer_links li.li_last{
+	border-right:none;
+}
+.footer .footer_links li a{
+	font-size:14px;
+	color:#8c8c8c;
+}
+.footer .footer_links li a:hover{
+	color:#f78200; 
+	text-decoration:underline;
+}
+.footer .copyright{
+	font-size:11px;
+	color:#cec6cb;
+	margin-top:22px;
+}
